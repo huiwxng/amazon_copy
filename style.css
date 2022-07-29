@@ -1,0 +1,166 @@
+html {
+    background-color: #eaeded;
+    font-family: Helvetica;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+#navbar1 {
+    display: flex;
+    margin: -10px;
+    padding: 5px;
+    padding-top: 10px;
+    background-color: #131921;
+    justify-content: space-evenly;
+    height: 50px;
+}
+
+.searchbar {
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+}
+
+#white_searchbar {
+    width: 1080px;
+    color: white;
+    background-color: white;
+    height: 38px;
+}
+
+.items:hover {
+    border: 1px solid white;
+}
+
+.search_items:hover {
+    background-color: gray;
+    opacity: 0.8;
+}
+
+#navbar2 {
+    display: flex;
+    margin: 10px;
+    margin-left: -8px;
+    margin-right: -8px;
+    margin-bottom: 1px;
+    padding: 2px;
+    background-color: #232f3e;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.tags {
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.tags:hover {
+    border: 1px solid white;
+}
+
+a {
+    text-decoration: none;
+}
+
+.tags {
+    color: white;
+}
+
+#background_image {
+    margin: 0px;
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+}
+
+.main {
+    margin-top: -375px;
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.categories {
+    background-color: white;
+    margin: 15px;
+    width: 23%;
+    height: 420px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.category_name {
+    font-weight: bold;
+    font-size: 20px;
+    margin: 15px;
+    margin-top: 20px;
+    margin-bottom: -20px;
+    width: 80%;
+}
+
+.category_images {
+    margin: 12px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    width: 149px;
+    height: 116px;
+}
+
+.category_images:hover {
+    background-color: gray;
+    opacity: 0.8;
+}
+
+.category_desc {
+    color: darkslategray;
+    font-size: 12px;
+    margin-left: 12px;
+    margin-bottom: -20px;
+    width: 70%;
+}
+
+.explore_link {
+    font-size: 12px;
+    margin-left: 15px;
+    margin-top: 10px;
+    margin-bottom: -15px;
+    color: gray;
+}
+
+.box {
+    width: 24%;
+}
+
+.sign_in {
+    background-color: white;
+    margin-left: 15px;
+    height: 150px;
+}
+
+.sign_in_text {
+    font-weight: bold;
+    font-size: 20px;
+    margin: 15px;
+    padding: 5px;
+    padding-top: 20px;
+    padding-left: 15px;
+}
+
+.sign_in_button {
+    margin-top: 0px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.sign_in_button:hover {
+    background-color: gray;
+    opacity: 0.8;
+}
+
+.ad {
+    margin-top: 20px;
+    margin-left: 15px;
+}
